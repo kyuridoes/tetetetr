@@ -1,0 +1,4 @@
+
+canvas { border: 1px solid black; }
+#wrapper { display: flex; gap: 10px; }
+#left { display: flex; flex-direction: column; gap: 10px; }

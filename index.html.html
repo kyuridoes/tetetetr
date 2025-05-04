@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>ぷよぷよテトリス風テトリス</title>
+<style>
+  canvas { border: 1px solid black; }
+  #wrapper { display: flex; gap: 10px; }
+  #left { display: flex; flex-direction: column; gap: 10px; }
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <div id="left">
+    <canvas id="hold" width="120" height="120"></canvas>
+  </div>
+  <canvas id="main" width="300" height="600"></canvas>
+  <div id="right">
+    <canvas id="next" width="120" height="360"></canvas>
+  </div>
+</div>
+<script src="tetris.js"></script>
+</body>
+</html>
+
+
+
+
